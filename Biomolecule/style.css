@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+    }
+
+html{
+    min-width: 100%;
+}
+
+
+body {
+    width: 100%;
+    background: linear-gradient(45deg, red, blue);
+}
+
+.wrapper {
+    width:95%;
+    height: auto;
+    margin: 0 auto;
+}
+
+header {
+    overflow: hidden;
+    background: linear-gradient(45deg, azure, blue);
+    width: 100%;
+    height: 22vh;
+}
+
+
+
+.header-name{
+    margin-top: 3vh;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+    font-size: 6vh;
+    text-transform: uppercase;
+    
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+.header-name a {
+    border: 5px solid;
+    border-radius: 20px;
+    color: black;
+    padding: 4px;
+}
+
+.header-name a:hover {
+    color: rgb(252, 29, 29);
+    transition: 0.5s;
+}
+
+header ul {
+    margin-top: 1vh;
+    float: right;
+    right: 5px;
+}
+
+header ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+header ul li a{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 3vh;
+    margin-left: 6px;
+    color: black;
+}
+
+header ul li a:hover{
+    border-bottom: rgb(252, 29, 29) solid 4px ;
+    border-radius: 4px;
+    color: rgb(252, 29, 29);
+    
+    transition: 0.2s;
+}
+
+.advertise {
+    width: 100%;
+    height: 40vw;
+    background-image: url('images/cell.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+
+}
+ h1 {
+    
+    padding-top: 5vw;
+    text-align: center;
+    text-shadow: 1px 1px #dddeec;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 7vw;
+ }
+
+ .intro {
+    border: 4px solid rgb(218, 214, 214);
+    border-radius: 10px;
+    box-shadow: 3px 3px rgb(207, 206, 206) ;
+    margin: 5vh 2vw;
+    padding: 20px; 
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 4vw;
+    text-align: justify;
+ }
+
+ .molecules {
+    height: 120vw
+ }
+
+ .box-link {
+    background-color: rgb(231, 228, 228);
+    height: 10vw;
+    padding-top: 5vw;
+    border: 4px solid rgb(216, 213, 213);
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    font-size: 5vw;
+ }
+
+ .box-link a{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: black;
+ }
+
+ .box-link:hover {
+    box-shadow: 4px 4px rgb(185, 181, 181);
+ }
+
+ .box-link a:hover{
+    color:red;
+    border-bottom: 1vw solid red;
+    border-radius: 1vw;
+    transition: 60ms
+ }
+
+ footer {
+     height: 30vh;
+     background-color: grey;
+ }
+
+footer ul {
+    padding-top: 4vh;
+    padding-left: 2vh;
+    width: max-content;
+    float:left;
+ }
+
+footer ul li{
+  list-style: none;   
+  width:max-content;
+
+}
+
+
+footer ul li a{
+    font-size: 3vh;
+    color: white;
+    line-height: 25px;
+}
+
+footer ul li a:hover{
+    border-bottom: 2px solid white;
+    border-radius: 2px;
+    transition: 60ms;
+}
+
+.image-wrapper{
+    width:100%;
+    height: auto;
+}
+
+.molecule-pic{
+    width: 100%;
+    height: auto;
+}
+
+.indiv-molecule{
+    height:auto;
+}
+
+.sub-head{
+    margin-top: 3vh;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 7vw;
+}
+
+.intro a{
+    color: black;
+    text-decoration: underline;
+}
+
+.icons{
+    height:max-content;
+    width:max-content;
+    float:right;
+    margin-top: 12vh;
+}
+
+.github{
+    margin-left: 0.5vw;
+}
+
+@media only screen and (min-width: 1000px) {
+    .boxes{
+        text-align: center;
+    }
+
+    .box-link {
+        display: inline-block;
+        width: 41vw;
+        margin: 5vh 2vw;
+        
+
+     }
+
+     .molecules {
+         height: auto
+     }
+    
+}
