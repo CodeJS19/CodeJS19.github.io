@@ -43,8 +43,8 @@ header {
 }
 
 .header-name a {
-    border: 5px solid;
-    border-radius: 20px;
+    border: 1vw solid;
+    border-radius: 1.5vw;
     color: black;
     padding: 4px;
 }
@@ -55,9 +55,9 @@ header {
 }
 
 header nav ul {
+    display: block;
     margin-top: 1vh;
-    float: right;
-    right: 5px;
+    margin-bottom: 1vw;
 }
 
 header nav ul li {
@@ -74,8 +74,8 @@ header nav ul li a{
 }
 
 header nav ul li a:hover{
-    border-bottom: rgb(252, 29, 29) solid 4px ;
-    border-radius: 4px;
+    border-bottom: rgb(252, 29, 29) solid 0.5vw ;
+    border-radius: 0.5vw;
     color: rgb(252, 29, 29);
     transition: 0.2s;
 }
@@ -141,16 +141,17 @@ header nav ul li a:hover{
     transition: 60ms
  }
 
- footer {
-     height: 30vh;
+footer {
+     height: auto;
      background-color: grey;
  }
 
 footer ul {
-    padding-top: 4vh;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
     padding-left: 2vh;
     width: max-content;
-    float:left;
+    display: inline-block;
  }
 
 footer ul li{
@@ -161,9 +162,9 @@ footer ul li{
 
 
 footer ul li a{
-    font-size: 3vw;
+    font-size: 2vw;
     color: white;
-    line-height: 25px;
+    margin-top: 0.1vw;
 }
 
 footer ul li a:hover{
@@ -194,15 +195,17 @@ footer ul li a:hover{
 }
 
 .intro a{
-    color: black;
+    color: rgb(129, 113, 113);
     text-decoration: underline;
 }
 
 .icons{
+    position: absolute;
+    display: inline-block;
     height:max-content;
     width:max-content;
-    float:right;
-    margin-top: 12vh;
+    right:10px;
+    margin-top: 5vw;
 }
 
 .github{
@@ -228,6 +231,3 @@ footer ul li a:hover{
     
 }
 
-    header ul li a{
-        font-size: 3vh;
-    }
